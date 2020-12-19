@@ -5,8 +5,28 @@
     "allowJs": true,                       /* Allow javascript files to be compiled. */
     "jsx": "react",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     "outDir": "./dist/",                        /* Redirect output structure to the directory. */
-    "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
-
+    "rootDir": "./",       
+    "baseUrl": "./",                /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "paths": {
+      "Assets": ["src/assets"],
+      "Assets/*": ["src/assets/*"],
+      "Components": ["src/components"],
+      "Components/*": ["src/components/*"],
+      "Screens": ["src/screens"],
+      "Screens/*": ["src/screens/*"],
+      "Entity": ["src/entity"],
+      "Entity/*": ["src/entity/*"],
+      "Hooks": ["src/hooks"],
+      "Hooks/*": ["src/hooks/*"],
+      "Contexts": ["src/contexts"],
+      "Contexts/*": ["src/contexts/*"],
+      "Constants": ["src/constants"],
+      "Constants/*": ["src/constants/*"],
+      "Types": ["src/types"],
+      "Types/*": ["src/types/*"],
+      "Utils": ["src/utils"],
+      "Utils/*": ["src/utils/*"]
+  },
     /* Strict Type-Checking Options */
     "strict": true,                           /* Enable all strict type-checking options. */
     "noImplicitAny": true,                 /* Raise error on expressions and declarations with an implied 'any' type. */
