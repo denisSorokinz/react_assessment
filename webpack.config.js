@@ -46,6 +46,7 @@ module.exports = {
             Constants: path.join(__dirname, "src", "constants"),
             Types: path.join(__dirname, "src", "types"),
             Utils: path.join(__dirname, "src", "utils"),
+            Services: path.join(__dirname, "src", "services"),
         },
     },
     plugins: [

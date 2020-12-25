@@ -1,5 +1,5 @@
 import React from "react";
 
-const Main = () => <h2>Homepage</h2>;
+const Main: React.FC = () => <h2>Homepage</h2>;
 
 export default Main;

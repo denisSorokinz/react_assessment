@@ -14,19 +14,13 @@ const Header = () => (
         <NavbarBrand>React Assignment</NavbarBrand>
         <Nav className="m-auto" navbar>
             <NavItem>
-                <StyledNavLink>
-                    <Link to="/">Home</Link>
-                </StyledNavLink>
+                <Link to="/">Home</Link>
             </NavItem>
             <NavItem>
-                <StyledNavLink>
-                    <Link to="/news">News</Link>
-                </StyledNavLink>
+                <Link to="/news">News</Link>
             </NavItem>
             <NavItem>
-                <StyledNavLink>
-                    <Link to="/profile">Profile</Link>
-                </StyledNavLink>
+                <Link to="/profile">Profile</Link>
             </NavItem>
         </Nav>
         <Button>Login</Button>

@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 import { posts } from "Constants";
 
-const News = () => (
+const News: React.FC = () => (
     <React.Fragment>
         News
         {posts.map((post) => (
